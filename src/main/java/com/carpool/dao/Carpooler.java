@@ -1,14 +1,32 @@
 package com.carpool.dao;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "CARPOOLER")
 public class Carpooler {
 
+	@Id
+	@GeneratedValue
+	@Column
 	private String carpoolId;
+	@Column
 	private String firstName;
+	@Column
 	private String lastName;
+	@Column
 	private String contactNumber;
+	@Column
 	private String vehicleNumber;
+	@Column
 	private Integer noOfSeatsAvailable;
+	@Column
 	private String source;
+	@Column
 	private String destination;
 
 	public String getCarpoolId() {

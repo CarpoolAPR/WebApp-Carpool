@@ -5,7 +5,7 @@
 	<persistence-unit name="WebApp-Carpool">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<properties>
-			<property name="hibernate.connection.url" value="jdbc:mysql://localhost:8080/carpool" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/carpool" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
 			<property name="hibernate.connection.username" value="root" />
 			<property name="hibernate.connection.password" value="password" />
