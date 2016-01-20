@@ -3,6 +3,7 @@ package com.carpool.dao;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -11,9 +12,8 @@ import javax.persistence.Table;
 public class Carpooler {
 
 	@Id
-	@GeneratedValue
-	@Column
-	private String carpoolId;
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer carpoolId;
 	@Column
 	private String firstName;
 	@Column
@@ -29,11 +29,11 @@ public class Carpooler {
 	@Column
 	private String destination;
 
-	public String getCarpoolId() {
+	public Integer getCarpoolId() {
 		return carpoolId;
 	}
 
-	public void setCarpoolId(String carpoolId) {
+	public void setCarpoolId(Integer carpoolId) {
 		this.carpoolId = carpoolId;
 	}
 
