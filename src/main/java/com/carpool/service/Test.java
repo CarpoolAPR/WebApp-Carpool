@@ -20,13 +20,13 @@ public class Test {
 			Test ME = new Test();
 
 			/* Add few employee records in database */
-/*			Integer empID1 = ME.addEmployee("Zara1", "Ali11", 5, "1234567890", "MH14 AB 1234", "Aundh", "Blue-Ridge");
+			Integer empID1 = ME.addEmployee("Zara1", "Ali11", 5, "1234567890", "MH14 AB 1234", "Aundh", "Blue-Ridge");
 			Integer empID2 = ME.addEmployee("Zara2", "Ali22", 5, "1234567890", "MH14 AB 1234", "Aundh", "Blue-Ridge");
 			Integer empID3 = ME.addEmployee("Zara3", "Ali33", 5, "1234567890", "MH14 AB 1234", "Aundh", "Blue-Ridge");
 			Integer empID4 = ME.addEmployee("Zara4", "Ali44", 5, "1234567890", "MH14 AB 1234", "Aundh", "Blue-Ridge");
 			Integer empID5 = ME.addEmployee("Zara5", "Ali55", 5, "1234567890", "MH14 AB 1234", "Aundh", "Blue-Ridge");
-			System.out.println(empID1 + "," + empID2 + "," + empID3 + "," + empID4 + "," + empID5);*/
-			/* List down all the employees */
+			System.out.println(empID1 + "," + empID2 + "," + empID3 + "," + empID4 + "," + empID5);
+			 //List down all the employees 
 			 ME.listEmployees();
 
 			/* Update employee's records */
